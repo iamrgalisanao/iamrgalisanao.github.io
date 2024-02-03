@@ -1,0 +1,187 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F9FAFF;
+    color: #25282B;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header styles */
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: auto;
+    background-color: transparent; /* Make the navbar transparent */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between; /* Distribute items with space between */
+    padding: 16px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+nav ul li {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #25282B;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FDC435;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #25282B;
+}
+
+/* Container */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+/* About Me section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    margin-top: 80px; /* Add margin to push content below the fixed navbar */
+}
+
+.about-text {
+    flex: 1;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.about p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #FDC435;
+    color: #25282B;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 24px;
+    transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+    background-color: #FFC637;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Footer styles */
+footer {
+    background-color: transparent; /* Make the footer transparent */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* text-align: center; */
+    padding: 16px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    background-color: #25282B;
+    border-radius: 50%;
+}
+
+/* Media Query for Mobile Screens */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 32px;
+        margin-top: 96px; /* Adjust margin for smaller screens */
+    }
+
+    .about h1 {
+        font-size: 36px;
+    }
+
+    .about p {
+        font-size: 16px;
+      
+    }
+
+    .resume-button {
+        font-size: 16px;
+        margin: 20px;
+    }
+
+    footer {
+        flex-direction: column; /* Change to column layout on small screens */
+        align-items: center; /* Center items horizontally */
+        text-align: center; /* Center text */
+        gap: 20px;
+    }
+
+    .footer-icons {
+        flex-direction: column; /* Display icons in a column */
+        gap: 20px;
+    }
+
+    .text-wrapper {
+        margin-top: 8px; /* Add space between icons and text */
+    }
+
+    
+}
