@@ -132,9 +132,9 @@
     margin: 0 auto 1rem;
   }
 
-  #about .text-container p{
+  #about .text-container li{
     font-size: 14px;
-    line-height: 20px;
+    line-height: 1.5rem;
   }
 
   #about .about-containers{
