@@ -124,8 +124,10 @@ section{
 
   /* about */
 #about{
-  padding-top: 4vh;
-  height: 90vh;
+ 
+  height: 100vh;
+  padding-top: 5%;
+  /* margin-bottom: 30px; */
   /* padding-top: 5vh; */
   /* margin-bottom: 10vh; */
 }
@@ -170,9 +172,9 @@ section{
 
   #experience{
 
-    height: 80vh;
-    padding-top: 20vh;
-  margin-bottom: 10vh;
+    height: 100vh;
+    padding-top: 5%;
+   
   }
 
   #experience .about-containers .icon{
@@ -200,10 +202,9 @@ section{
 
 /* CERTIFICATIONS */
   #projects{
-    height: 90vh;
- 
-    padding-top: 10vh;
-  margin-bottom: 10vh;
+    height: 100vh;
+    padding-top: 5%;
+
   }
 
   #projects .about-containers{
