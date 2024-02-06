@@ -1,18 +1,17 @@
-
-@media screen and (max-width: 1400px) {
-  #profile{
-    height: 83vh;
-    margin-bottom: 6rem;
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px) {
+  body {
+      background-color: red !important;
   }
-
-  .about-container{
-    flex-wrap: wrap;
-  }
-
 }
 
-@media screen and (max-width: 1200px) {
- 
+
+ /* Media Query for Tablets Ipads portrait mode */
+ @media (min-width: 768px) and (max-width: 1024px){
+  /* body {
+      background-color: blue;
+  } */
+
   #desktop-nav{
     display: none;
   }
@@ -38,7 +37,7 @@
 
   #profile,
   .section-container{
-    /* height: 83vh; */
+   height: 83vh; 
     display: flex;
     gap: 1rem;
     flex-direction: column;
@@ -85,8 +84,8 @@
   }
 
   #profile .section__pic-container{
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
     margin: 0 auto 1rem;
   }
 
@@ -122,17 +121,97 @@
  
 
   /* about */
+#about{
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+}
+
  #about .section__pic-container{
     /* width: 700px;
     height: 700px; */
     margin: 0 auto 1rem;
   }
 
+  #about .text-container p{
+    font-size: 14px;
+    line-height: 20px;
+  }
 
+  #about .about-containers{
+    flex-direction: column;
+  }
+  #about .about-containers .details-container{
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+  }
+  #about .about-containers .details-container h3{
+    font-size: 24px;
+  }
+  #about .about-containers .details-container p{
+    font-size: 24px;
+  }
+  #about .about-containers .details-container .icon{
+    height: 8rem;
+  }
 
 }
 
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  body {
+      background-color: green;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  body {
+      background-color: white;
+  }
+}
+
+
+/* @media screen and (max-width: 1400px) {
+  #profile{
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+
+  .about-container{
+    flex-wrap: wrap;
+  } */
+
+/* } */
+
+  
+
+
+@media screen and (max-width: 768px){
+
+  #about{
+    height: 80vh;
+    margin-top: 4vh;
+  }
+
+  .section__pic-container{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+    
+  }
+}
+
 @media screen and (max-width: 600px){
+
+ 
+
+  #about .about-containers .details-container{
+    flex-direction: column;
+        
+  }  
+
   #contact,
   footer{
     height: 40vh;
