@@ -101,6 +101,15 @@
     flex-direction: column;
   }
 
+
+  /* about */
+ #about .section__pic-container{
+    /* width: 700px;
+    height: 700px; */
+    margin: 0 auto 1rem;
+  }
+
+
 }
 
 @media screen and (max-width: 600px){
