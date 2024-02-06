@@ -141,8 +141,9 @@ section{
   }
 
   #about .text-container li{
-    font-size: 14px;
-    line-height: 1.5rem;
+    font-size: 2rem;
+    /* line-height: 1.5rem; */
+    /* margin-bottom: 1rem; */
   }
 
   #about .about-containers{
