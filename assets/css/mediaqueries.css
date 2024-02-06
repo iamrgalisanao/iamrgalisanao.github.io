@@ -11,7 +11,9 @@
   /* body {
       background-color: blue;
   } */
-
+section{
+  padding-top: 0;
+}
   #desktop-nav{
     display: none;
   }
@@ -122,7 +124,8 @@
 
   /* about */
 #about{
-  height: 90vh;
+  padding-top: 5vh;
+  height: 100vh;
   /* padding-top: 5vh; */
   /* margin-bottom: 10vh; */
 }
@@ -165,8 +168,9 @@
   /* EXPERIENCE */
 
   #experience{
-    height: 90vh;
-    /* padding-top: 7vh; */
+
+    height: 100vh;
+    padding-top: 5vh;
   /* margin-bottom: 10vh; */
   }
 
@@ -190,7 +194,7 @@
   #projects{
     height: 90vh;
  
-    /* padding-top: 5vh; */
+    padding-top: 5vh;
   margin-bottom: 10vh;
   }
 
