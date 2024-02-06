@@ -127,7 +127,7 @@ section{
   padding-top: 4vh;
   height: 100vh;
   /* padding-top: 5vh; */
-  /* margin-bottom: 10vh; */
+  margin-bottom: 5vh;
 }
 
 #about .section-container{
@@ -171,7 +171,7 @@ section{
   #experience{
 
     height: 100vh;
-    padding-top: 3vh;
+    padding-top: 5vh;
   /* margin-bottom: 10vh; */
   }
 
@@ -191,6 +191,13 @@ section{
     flex-wrap: wrap;
     gap: 2.5rem;
   }
+
+  #experience .experience-sub-title{
+    font-size: 2.5rem;
+  }
+
+
+
 /* CERTIFICATIONS */
   #projects{
     height: 90vh;
