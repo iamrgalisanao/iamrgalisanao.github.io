@@ -122,9 +122,9 @@
 
   /* about */
 #about{
-  height: 83vh;
+  height: 90vh;
   /* padding-top: 5vh; */
-  margin-bottom: 10vh;
+  /* margin-bottom: 10vh; */
 }
 
 #about .section-container{
@@ -165,9 +165,9 @@
   /* EXPERIENCE */
 
   #experience{
-    height: 83vh;
+    height: 90vh;
     /* padding-top: 7vh; */
-  margin-bottom: 10vh;
+  /* margin-bottom: 10vh; */
   }
 
   #experience .about-containers .icon{
