@@ -127,7 +127,7 @@ section{
   padding-top: 4vh;
   height: 90vh;
   /* padding-top: 5vh; */
-  /* margin-bottom: 10vh; */
+  margin-bottom: 10vh;
 }
 
 #about .section-container{
@@ -172,7 +172,7 @@ section{
 
     height: 80vh;
     padding-top: 10vh;
-  /* margin-bottom: 10vh; */
+  margin-bottom: 10vh;
   }
 
   #experience .about-containers .icon{
