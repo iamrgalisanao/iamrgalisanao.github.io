@@ -122,7 +122,8 @@
 
   /* about */
 #about{
-  padding-top: 5vh;
+  height: 83vh;
+  /* padding-top: 5vh; */
   margin-bottom: 10vh;
 }
 
@@ -164,7 +165,8 @@
   /* EXPERIENCE */
 
   #experience{
-    padding-top: 7vh;
+    height: 83vh;
+    /* padding-top: 7vh; */
   margin-bottom: 10vh;
   }
 
@@ -186,7 +188,8 @@
   }
 /* CERTIFICATIONS */
   #projects{
-    height: 80vh;
+    height: 83vh;
+ 
     /* padding-top: 5vh; */
   margin-bottom: 10vh;
   }
