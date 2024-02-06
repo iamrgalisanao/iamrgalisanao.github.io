@@ -143,7 +143,7 @@ a:hover{
 
 /* SECTIONS */
 section{
-  /* padding-top: 10vh; */
+  padding-top: 10vh;
   height: 90vh;
   margin: 0 10rem;
   box-sizing: border-box;
@@ -295,14 +295,19 @@ section{
   display: flex;
 }
 
+#about .section-container{
+  margin: 0 auto;
+  gap: 20px;
+}
+
 #about .about-details-container{
   padding: 0 5%;
 }
 
 #about .section-container{
   display: flex;
-  /* flex-direction: row; */
-  /* width: fit-content; */
+  flex-direction: row; 
+  width: fit-content;
   justify-content: space-between;
 }
 .about-pic{
