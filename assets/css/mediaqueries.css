@@ -1,9 +1,9 @@
 /* Media Query for Mobile Devices */
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   body {
       background-color: red !important;
   }
-}
+} */
 
 
  /* Media Query for Tablets Ipads portrait mode */
@@ -194,6 +194,22 @@
     flex-direction: column;
   }
   
+  #projects .btn{
+    font-weight: 600;
+    font-size: 2.5rem;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 20rem;
+    /* width: 100%; */
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    
+  }
+
+  #projects .about-containers h2{
+    margin-top: 10px;
+    font-size: 2.5rem;
+  }
     
 } 
 
