@@ -57,19 +57,11 @@
 
   }
 
-  #profile .section__pic-container{
-    width: 700px;
-    height: 700px;
-    margin: 0 auto 1rem;
-  }
-
+  
   .section__pic-container img{
     width: 100%;
   }
-  .section__text__p1{
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
+ 
   .section__text__p2{
     font-size: 2.5rem;
     margin-bottom: 1rem;
@@ -92,15 +84,42 @@
     
   }
 
+  #profile .section__pic-container{
+    width: 700px;
+    height: 700px;
+    margin: 0 auto 1rem;
+  }
+
+
+  #profile .btn{
+    width: 350px;
+    font-size: 3rem;
+    padding: 1.25rem;
+  }
+
+  #profile .title{
+    font-size: 5rem;
+  }
+
+  /* social icons */
   #profile .icon{
-    height: 4rem;
+    height: 8rem;
   }
 
   #experience .about-containers{
     display: flex;
     flex-direction: column;
   }
+  #profile .section__text__p1{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
 
+  #profile .section__text__p2{
+    font-size: 3.5rem;
+  }
+
+ 
 
   /* about */
  #about .section__pic-container{
@@ -108,6 +127,7 @@
     height: 700px; */
     margin: 0 auto 1rem;
   }
+
 
 
 }
