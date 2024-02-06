@@ -125,8 +125,8 @@ section{
   /* about */
 #about{
  
-  height: 100vh;
-  padding-top: 5%;
+  /* height: 100vh;
+  padding-top: 5%; */
   /* margin-bottom: 30px; */
   /* padding-top: 5vh; */
   /* margin-bottom: 10vh; */
@@ -172,8 +172,8 @@ section{
 
   #experience{
 
-    height: 100vh;
-    padding-top: 5%;
+    /* height: 100vh;
+    padding-top: 5%; */
    
   }
 
@@ -202,8 +202,8 @@ section{
 
 /* CERTIFICATIONS */
   #projects{
-    height: 100vh;
-    padding-top: 5%;
+    /* height: 100vh;
+    padding-top: 5%; */
 
   }
 
