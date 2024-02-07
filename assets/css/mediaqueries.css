@@ -201,11 +201,7 @@ section{
 
 
 /* CERTIFICATIONS */
-  #projects{
-    /* height: 100vh;
-    padding-top: 5%; */
-
-  }
+ 
 
   #projects .about-containers{
     flex-direction: column;
