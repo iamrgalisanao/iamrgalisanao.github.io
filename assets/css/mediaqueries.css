@@ -29,6 +29,13 @@ section{
     display: flex;
   }
 
+  .hamburger-icon{
+    
+    height: 30px;
+    width: 50px;
+    
+  }
+
   #experience, 
   .experience-details-container{
     display: flex;
